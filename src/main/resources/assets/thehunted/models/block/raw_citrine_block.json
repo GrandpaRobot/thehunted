@@ -1,0 +1,6 @@
+{
+  "parent":"block/cube_all",
+  "textures": {
+    "all": "thehunted:block/raw_citrine_block"
+  }
+}
