@@ -1,8 +1,9 @@
 package com.dynamicvoyage.thehunted.block;
 
 import com.dynamicvoyage.thehunted.TheHunted;
-import com.dynamicvoyage.thehunted.item.ModCreativeModeTab;
 import com.dynamicvoyage.thehunted.item.ModItems;
+import com.dynamicvoyage.thehunted.ui.ModCreativeModeTab;
+
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;

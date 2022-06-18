@@ -1,6 +1,8 @@
 package com.dynamicvoyage.thehunted.item;
 
 import com.dynamicvoyage.thehunted.TheHunted;
+import com.dynamicvoyage.thehunted.ui.ModCreativeModeTab;
+
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
