@@ -19,6 +19,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.damagesource.DamageSource;
 
+import com.dynamicvoyage.thehunted.item.ModItems;
+
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.level.Level;
@@ -59,7 +61,9 @@ public class ArcherEntity extends Pillager {
     protected void populateDefaultEquipmentSlots(DifficultyInstance localDifficulty_1) {
         super.populateDefaultEquipmentSlots(localDifficulty_1);
         this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(Items.CHAINMAIL_HELMET));
+        this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(ModItems.ELECTRIC_BOW.get()));
     }
+
 
     @Override
     public MobType getMobType() {

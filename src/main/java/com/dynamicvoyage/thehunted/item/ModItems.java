@@ -5,6 +5,7 @@ import com.dynamicvoyage.thehunted.entity.ModEntityTypes;
 import com.dynamicvoyage.thehunted.item.custom.TrackingRodItem;
 import com.dynamicvoyage.thehunted.ui.ModCreativeModeTab;
 
+import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,6 +28,10 @@ public class ModItems {
     public static final RegistryObject<Item> ARCHER_SPAWN_EGG = ITEMS.register("archer_spawn_egg",
     () -> new ForgeSpawnEggItem(ModEntityTypes.ARCHER,0x948e8d, 0x3b3635,
             new Item.Properties().tab(ModCreativeModeTab.TAB_THEHUNTED)));
+            
+            
+    public static final RegistryObject<Item> ELECTRIC_BOW = ITEMS.register("electric_bow",
+            () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.TAB_THEHUNTED).durability(500)));
             
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

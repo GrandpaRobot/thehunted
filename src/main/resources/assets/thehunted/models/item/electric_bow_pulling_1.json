@@ -1,0 +1,6 @@
+{
+    "parent": "thehunted:item/electric_bow",
+    "textures": {
+        "layer0": "thehunted:item/electric_bow_pulling_1"
+    }
+}
