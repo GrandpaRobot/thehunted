@@ -5,6 +5,7 @@ import com.dynamicvoyage.thehunted.entity.ModEntityTypes;
 import com.dynamicvoyage.thehunted.entity.client.ArcherRenderer;
 // import com.dynamicvoyage.thehunted.entity.client.ArcherRenderer;
 import com.dynamicvoyage.thehunted.item.ModItems;
+import com.dynamicvoyage.thehunted.util.ModItemProperties;
 import com.dynamicvoyage.thehunted.world.structure.ModStructures;
 import com.mojang.logging.LogUtils;
 
@@ -48,6 +49,7 @@ public class TheHunted
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
+        ModItemProperties.addCustomItemProperties();
         EntityRenderers.register(ModEntityTypes.ARCHER.get(), ArcherRenderer::new);
     }
 
