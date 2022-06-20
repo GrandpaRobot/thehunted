@@ -19,7 +19,7 @@ public class TrackingRodItem extends Item {
     @Override
     public void inventoryTick(ItemStack pStack, Level pLevel, Entity pEntity, int pSlotId, boolean pIsSelected) {
         if(pIsSelected) {
-            System.out.println("ITEM IN INVENTORY THIS IS A TEST");
+            System.out.println("ITEM IN INVENTORY");
         }
         super.inventoryTick(pStack, pLevel, pEntity, pSlotId, pIsSelected);
     }
