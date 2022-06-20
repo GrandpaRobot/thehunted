@@ -1,6 +1,8 @@
 # dev stuff
 /media
 /tools
+.vscode
+
 
 # eclipse
 bin

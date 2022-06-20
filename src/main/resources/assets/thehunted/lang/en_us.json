@@ -1,8 +1,12 @@
 {
   "item.thehunted.citrine": "Citrine",
   "item.thehunted.raw_citrine": "Raw Citrine",
+  "item.thehunted.tracking_rod": "Tracking Rod",
+  "item.thehunted.archer_spawn_egg": "Archer Spawn Egg",
+
   "block.thehunted.citrine_block":"Citrine Block",
   "block.thehunted.raw_citrine_block":"Raw Citrine Block",
   "block.thehunted.citrine_ore":"Citrine Ore",
-  "itemGroup.thehunted": "The Hunted"
+  "itemGroup.thehunted": "The Hunted",
+  "item.thehunted.tracking_rod:success": "You have the tracking rod held!"
 }
